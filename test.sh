@@ -1,6 +1,9 @@
 #!/bin/bash
 
+currentdir=`dirname ${0}`
+echo $currentdir
+cd $currentdir
 
-. /home/vagrant/shell_test/function_test/func.sh
+. ./func.sh
 
 eee test
